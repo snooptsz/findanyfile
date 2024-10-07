@@ -34,24 +34,24 @@ May your cosmic searches lead you to hidden galaxies of wisdom! ✨
 
 ### Requirements:
 
-Python3 
+    Python3 
 
-Git
+    Git
 
-Pip
+    Pip
 
 
 
 ## H0w to install & Use >>>
 
 
-git clone https://github.com/snooptsz/findanyfile
+    git clone https://github.com/snooptsz/findanyfile
 
-cd findanyfile
+    cd findanyfile
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
-python3 FindAnyFile.py
+    python3 FindAnyFile.py
 
 
 
@@ -77,9 +77,9 @@ Video > https://www.youtube.com/watch?v=kuZ4eVpAqVA
 
 #
 
-from googlesearch import search
+    from googlesearch import search
 
-def find_files(query, file_types):
+    def find_files(query, file_types):
     """
     Searches for files online using Google Search.
 
@@ -97,7 +97,7 @@ def find_files(query, file_types):
         file_links[file_type] = results
     return file_links
 
-def main():
+    def main():
     """
     Prompts the user for a search query and displays results for various file formats.
     """
@@ -115,7 +115,7 @@ def main():
     except Exception as e:
         print(f"An error occurred: {e}")
 
-if __name__ == "__main__":
+    if __name__ == "__main__":
     main()
 
 
